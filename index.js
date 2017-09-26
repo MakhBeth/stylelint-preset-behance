@@ -1,8 +1,10 @@
 module.exports = {
   plugins: [
     'stylelint-order',
+    '@behance/stylelint-plugin-behance',
   ],
   rules: {
+    'stylelint-plugin-behance/no-mixing': true,
     // Color
     'color-hex-case': 'lower',
     'color-hex-length': 'short',
